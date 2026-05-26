@@ -1,0 +1,17 @@
+# Local state — never commit this
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Credentials — never commit these
+*.pem
+.env
+credentials
+
+# Plan files can contain sensitive values
+planfile
+*.tfplan
+
+# tfvars files may contain real credentials, emails, or domain names
+*.tfvars
