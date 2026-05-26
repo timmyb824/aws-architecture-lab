@@ -15,3 +15,7 @@ planfile
 
 # tfvars files may contain real credentials, emails, or domain names
 *.tfvars
+
+# Other
+01-resource-map.png
+.DS_Store
